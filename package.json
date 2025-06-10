@@ -13,10 +13,10 @@
     "@nuxt/content": "^3.5.1",
     "@nuxt/image": "^1.10.0",
     "@tailwindcss/vite": "^4.1.8",
-    "nuxt": "^3.17.4",
+    "nuxt": "^3.17.5",
     "tailwindcss": "^4.1.8"
   },
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16"
   }
