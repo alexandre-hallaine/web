@@ -2,6 +2,14 @@
 const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => queryCollection('content').path(route.path).first())
 
+if (!page.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Page not found',
+    message: 'The requested page does not exist.',
+  })
+}
+
 useSeoMeta({
   title: page.value?.title,
   description: page.value?.description,
@@ -29,9 +37,6 @@ const backgroundStyles = computed(() => {
         v-if="page"
         :value="page"
       />
-      <div v-else>
-        Page not found
-      </div>
     </main>
   </div>
 </template>
