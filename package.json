@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.6.3",
-    "nuxt": "^4.0.0"
+    "@tailwindcss/vite": "^4.1.11",
+    "nuxt": "^4.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.6.0",

@@ -8,11 +8,17 @@ useSeoMeta({
 </script>
 
 <template>
-  <ContentRenderer
-    v-if="home"
-    :value="home"
-  />
-  <div v-else>
-    Home not found
+  <div>
+    <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+
+    <ContentRenderer
+      v-if="home"
+      :value="home"
+    />
+    <div v-else>
+      Home not found
+    </div>
   </div>
 </template>
