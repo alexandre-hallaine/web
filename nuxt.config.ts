@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui-pro', '@nuxt/content'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/ui-pro',
+    '@nuxt/content',
+    '@nuxtjs/seo',
+  ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   content: {
@@ -12,4 +17,5 @@ export default defineNuxtConfig({
     checker: true,
     config: { stylistic: true },
   },
+  seo: { automaticDefaults: false },
 })

@@ -5,6 +5,8 @@ useSeoMeta({
   title: home.value?.title,
   description: home.value?.description,
 })
+
+defineOgImageComponent()
 </script>
 
 <template>
