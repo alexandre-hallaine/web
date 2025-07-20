@@ -11,16 +11,9 @@ defineOgImageComponent()
 
 <template>
   <UPageSection orientation="horizontal">
-    <template #body>
-      <ContentRenderer
-        v-if="home"
-        :value="home"
-      />
-    </template>
-    <img
-      src="https://avatars.githubusercontent.com/u/52411215"
-      class="rounded"
-      alt="My GitHub Avatar"
-    >
+    <ContentRenderer
+      v-if="home"
+      :value="home"
+    />
   </UPageSection>
 </template>

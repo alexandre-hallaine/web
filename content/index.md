@@ -3,15 +3,22 @@ title: Alexandre Hallaine
 description: I own a computer
 ---
 
-# Hey
+::badge
+Podman > Docker
+::
 
-I'm a **developer at CGI Montreal** and a **student at 42 Paris**.
+# Hello, I’m Alexandre Hallaine
 
-I've been working with **C** for over 5 years and continue using it professionally.  
-In my free time, I build websites with **Nuxt** and **Tailwind**, and write low-level code in **Rust**.  
-Lately, I've also started exploring **Go**.
+I’m a **developer at CGI Montreal** and a **student at 42 Paris**, passionate about systems and the web.
 
-I'm active on [**Bluesky**](https://bsky.app/profile/hallaine.com), and you can find me on [**LinkedIn**](https://linkedin.com/in/alexandre-hallaine) and [**GitHub**](https://github.com/alexandre-hallaine).  
-**Best way to reach me: [alexandre@hallaine.com](mailto:alexandre@hallaine.com).**
+With over **5 years of experience in C**, I use it professionally for low-level work. On the side, I build sleek frontends using **Nuxt** and **Tailwind CSS**, and dive into **Rust** for systems programming.  
+Lately, I’ve been exploring **Go** as well.
 
-My main machine is a Mac Mini M4 (10-core, 16 GiB) running macOS Sequoia.
+I’m online at:
+- [**Bluesky**](https://bsky.app/profile/hallaine.com)
+- [**LinkedIn**](https://linkedin.com/in/alexandre-hallaine)
+- [**GitHub**](https://github.com/alexandre-hallaine)
+
+✉️ The best way to reach me: [alexandre@hallaine.com](mailto:alexandre@hallaine.com)
+
+🖥️ I work on a **Mac Mini M4** (10-core, 16 GiB) running **macOS Sequoia**.
