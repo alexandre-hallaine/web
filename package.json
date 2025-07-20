@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^3.6.3",
+    "@nuxt/image": "1.10.0",
     "@tailwindcss/vite": "^4.1.11",
     "nuxt": "^4.0.0",
     "tailwindcss": "^4.1.11"
