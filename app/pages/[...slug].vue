@@ -20,7 +20,6 @@ useHead({
 })
 
 const img = useImage()
-
 const backgroundStyles = computed(() => {
   const imgUrl = img('background.jpg', { format: 'webm' })
   return { backgroundImage: `url('${imgUrl}')` }
