@@ -7,9 +7,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "nuxt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.6.0",
+    "eslint": "^9.31.0",
+    "typescript": "^5.8.3",
+    "vite-plugin-eslint2": "^5.0.4"
   }
 }
