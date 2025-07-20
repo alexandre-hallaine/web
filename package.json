@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.6.0",
+    "@tailwindcss/typography": "^0.5.16",
     "eslint": "^9.31.0",
     "typescript": "^5.8.3",
     "vite-plugin-eslint2": "^5.0.4"
