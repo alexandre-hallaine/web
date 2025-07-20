@@ -1,9 +1,10 @@
 <script setup lang="ts">
-const { data: home } = await useAsyncData(() => queryCollection('content').path('/').first())
+const route = useRoute()
+const { data: page } = await useAsyncData(route.path, () => queryCollection('content').path(route.path).first())
 
 useSeoMeta({
-  title: home.value?.title,
-  description: home.value?.description,
+  title: page.value?.title,
+  description: page.value?.description,
 })
 
 useHead({
@@ -25,11 +26,11 @@ const backgroundStyles = computed(() => {
   >
     <main class="prose dark:prose-invert md:prose-lg lg:prose-xl m-5 rounded-xl bg-white/50 p-5 shadow-lg backdrop-blur-md dark:bg-black/50">
       <ContentRenderer
-        v-if="home"
-        :value="home"
+        v-if="page"
+        :value="page"
       />
       <div v-else>
-        Home not found
+        Page not found
       </div>
     </main>
   </div>
