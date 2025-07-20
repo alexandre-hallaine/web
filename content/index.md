@@ -1,7 +1,24 @@
-# Hi
+---
+title: Alexandre Hallaine
+description: I own a computer
+---
 
-I’m a **C developer** in **Montreal**, finishing my studies at **42 Paris** and interning at **CGI**.
+::badge
+Podman > Docker
+::
 
-Lately, I’ve been exploring **web development** with **Vue.js**.
+# Hello, I’m Alexandre Hallaine
 
-Find my projects on [**GitHub**](https://github.com/alexandre-hallaine), connect on [**LinkedIn**](https://linkedin.com/in/alexandre-hallaine), or email me at [**alexandre@hallaine.com**](mailto:alexandre@hallaine.com). I usually reply fastest by email.
+I’m a **developer at CGI Montreal** and a **student at 42 Paris**, passionate about systems and the web.
+
+With over **5 years of experience in C**, I use it professionally for low-level work. On the side, I build sleek frontends using **Nuxt** and **Tailwind CSS**, and dive into **Rust** for systems programming.  
+Lately, I’ve been exploring **Go** as well.
+
+I’m online at:
+- [**Bluesky**](https://bsky.app/profile/hallaine.com)
+- [**LinkedIn**](https://linkedin.com/in/alexandre-hallaine)
+- [**GitHub**](https://github.com/alexandre-hallaine)
+
+✉️ The best way to reach me: [alexandre@hallaine.com](mailto:alexandre@hallaine.com)
+
+🖥️ I work on a **Mac Mini M4** (10-core, 16 GiB) running **macOS Sequoia**.
