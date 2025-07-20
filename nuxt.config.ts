@@ -9,9 +9,8 @@ export default defineNuxtConfig({
     experimental: { nativeSqlite: true },
   },
   compatibilityDate: '2025-07-15',
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  nitro: { cloudflare: { deployConfig: true } },
+  vite: { plugins: [tailwindcss()] },
   eslint: {
     checker: true,
     config: { stylistic: true },
