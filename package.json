@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@nuxt/content": "^3.6.3",
     "nuxt": "^4.0.0"
   },
   "devDependencies": {
