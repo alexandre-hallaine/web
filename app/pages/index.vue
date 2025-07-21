@@ -11,7 +11,9 @@ defineOgImageComponent('Main')
 
 <template>
   <UPageSection orientation="horizontal">
-    <ContentRenderer v-if="home" :value="home" />
-    <img src="https://random-d.uk/api/v2/randomimg" alt="Duck" class="rounded">
+    <ContentRenderer
+      v-if="home"
+      :value="home"
+    />
   </UPageSection>
 </template>
