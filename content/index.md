@@ -11,18 +11,20 @@ Neckbeard
 
 > Developer @ CGI Montreal · Student @ 42 Paris
 
-With over **5 years** writing **C**.
-Outside work, I build projects with **Nuxt** and **Rust** as personal pursuits.
-I plan to start **Go**.
+With over **5 years** writing [C](https://www.c-language.org/).
+Outside work, I build projects with [Nuxt](https://nuxt.com) and [Rust](https://www.rust-lang.org) as personal pursuits.
+I plan to start [Go](https://go.dev).
+
+Fan of [Gnome](https://www.gnome.org/) and [UnJs](https://unjs.io/).
 
 ::card-group
-::card{title="GitHub" icon="i-simple-icons-github" to="https://github.com/alexandre-hallaine" target="_blank"}
+::card{title="GitHub" icon="i-simple-icons-github" to="https://github.com/alexandre-hallaine" target="\_blank"}
 My open-source contributions and personal projects.
 ::
-::card{title="LinkedIn" icon="i-simple-icons-linkedin" to="https://linkedin.com/in/alexandre-hallaine" target="_blank"}
+::card{title="LinkedIn" icon="i-simple-icons-linkedin" to="https://linkedin.com/in/alexandre-hallaine" target="\_blank"}
 Connect with me professionally.
 ::
-::card{title="Bluesky" icon="i-simple-icons-bluesky" to="https://bsky.app/profile/hallaine.com" target="_blank"}
+::card{title="Bluesky" icon="i-simple-icons-bluesky" to="https://bsky.app/profile/hallaine.com" target="\_blank"}
 My thoughts and updates.
 ::
 ::card{title="Email" icon="i-lucide-mail" to="mailto:alexandre@hallaine.com"}
