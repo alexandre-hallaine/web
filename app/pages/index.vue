@@ -6,14 +6,12 @@ useSeoMeta({
   description: home.value?.description,
 })
 
-defineOgImageComponent()
+defineOgImageComponent('Main')
 </script>
 
 <template>
   <UPageSection orientation="horizontal">
-    <ContentRenderer
-      v-if="home"
-      :value="home"
-    />
+    <ContentRenderer v-if="home" :value="home" />
+    <img src="https://random-d.uk/api/v2/randomimg" alt="Duck" class="rounded">
   </UPageSection>
 </template>

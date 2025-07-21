@@ -4,21 +4,28 @@ description: I own a computer
 ---
 
 ::badge
-Podman > Docker
+Neckbeard
 ::
 
 # Hello, I’m Alexandre Hallaine
 
-I’m a **developer at CGI Montreal** and a **student at 42 Paris**, passionate about systems and the web.
+> Developer @ CGI Montreal · Student @ 42 Paris
 
-With over **5 years of experience in C**, I use it professionally for low-level work. On the side, I build sleek frontends using **Nuxt** and **Tailwind CSS**, and dive into **Rust** for systems programming.  
-Lately, I’ve been exploring **Go** as well.
+With over **5 years** writing **C**.
+Outside work, I build projects with **Nuxt** and **Rust** as personal pursuits.
+I plan to start **Go**.
 
-I’m online at:
-- [**Bluesky**](https://bsky.app/profile/hallaine.com)
-- [**LinkedIn**](https://linkedin.com/in/alexandre-hallaine)
-- [**GitHub**](https://github.com/alexandre-hallaine)
-
-✉️ The best way to reach me: [alexandre@hallaine.com](mailto:alexandre@hallaine.com)
-
-🖥️ I work on a **Mac Mini M4** (10-core, 16 GiB) running **macOS Sequoia**.
+::card-group
+::card{title="GitHub" icon="i-simple-icons-github" to="https://github.com/alexandre-hallaine" target="_blank"}
+My open-source contributions and personal projects.
+::
+::card{title="LinkedIn" icon="i-simple-icons-linkedin" to="https://linkedin.com/in/alexandre-hallaine" target="_blank"}
+Connect with me professionally.
+::
+::card{title="Bluesky" icon="i-simple-icons-bluesky" to="https://bsky.app/profile/hallaine.com" target="_blank"}
+My thoughts and updates.
+::
+::card{title="Email" icon="i-lucide-mail" to="mailto:alexandre@hallaine.com"}
+Reach out directly.
+::
+::
