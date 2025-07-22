@@ -17,17 +17,17 @@ I plan to start [Go](https://go.dev).
 
 Fan of [Gnome](https://www.gnome.org/) and [UnJs](https://unjs.io/).
 
-::card-group
-::card{title="GitHub" icon="i-simple-icons-github" to="https://github.com/alexandre-hallaine" target="\_blank"}
+::collapsible{name="links"}
+::callout{icon="i-simple-icons-github" to="https://github.com/alexandre-hallaine"}
 My open-source contributions and personal projects.
 ::
-::card{title="LinkedIn" icon="i-simple-icons-linkedin" to="https://linkedin.com/in/alexandre-hallaine" target="\_blank"}
+::callout{icon="i-simple-icons-linkedin" to="https://linkedin.com/in/alexandre-hallaine"}
 Connect with me professionally.
 ::
-::card{title="Bluesky" icon="i-simple-icons-bluesky" to="https://bsky.app/profile/hallaine.com" target="\_blank"}
+::callout{icon="i-simple-icons-bluesky" to="https://bsky.app/profile/hallaine.com"}
 My thoughts and updates.
 ::
-::card{title="Email" icon="i-lucide-mail" to="mailto:alexandre@hallaine.com"}
+::callout{icon="i-lucide-mail" to="mailto:alexandre@hallaine.com"}
 Reach out directly.
 ::
 ::
